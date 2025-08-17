@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "document-mcp": {
+      "command": "/Users/bhogaai/.local/bin/uv",
+      "args": [
+        "run",
+        "--project",
+        "/Users/bhogaai/model-context-protocol",
+        "/Users/bhogaai/model-context-protocol/mcp_server.py"
+      ],
+      "cwd": "/Users/bhogaai/model-context-protocol",
+      "env": {
+        "weatherAPIKey": "8e0a847b4161401da63140433250207",
+        "PYTHONPATH": "/Users/bhogaai/model-context-protocol",
+        "UV_PROJECT_ENVIRONMENT": "/Users/bhogaai/model-context-protocol/.venv"
+      }
+    }
+  }
+}

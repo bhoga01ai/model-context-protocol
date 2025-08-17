@@ -1,0 +1,14 @@
+[project]
+name = "my-mcp-server"  # or any other name you prefer
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.11.3",
+    "mcp[cli]>=1.13.0",
+    "prompt-toolkit>=3.0.51",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.4",
+    "yfinance>=0.2.65",
+]
