@@ -3,3 +3,5 @@ python-dotenv
 yfinance
 requests
 prompt-toolkit
+streamlit
+streamlit_ace
